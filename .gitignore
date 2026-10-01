@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Data & models (large / generated files shouldn't be committed)
+data/raw/*.csv
+models/*.pkl
+
+# Keep folder structure in git
+!data/raw/.gitkeep
+!models/.gitkeep
+
+.DS_Store
+*.log
